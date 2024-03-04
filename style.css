@@ -1,9 +1,56 @@
- .bread-bg{
-   background-color: #060678;
- }
- .menu-layout2{
-  background-color: #07249e;
- }
+/*---------------------------------------------
+
+Template Name: Optimax  
+Template URL: http://radiustheme.com/demo/html/optimax/ 
+Description: Seo and Digital Marketing Agency HTML Template
+Author: Radiustheme.com
+Author URL: http://www.radiustheme.com 
+Version: 1.0 
+
+===================   
+CSS INDEX
+===================
+
+1. Typography
+2. Bootstrap Overwrite
+    2.1 Grid
+    2.2 Media Object
+3. Vendor Custom Style 
+    3.1 Nivo Slider
+    3.2 Owl Carousel Nav Style
+4. Template Layout Style
+    4.1 Content
+    4.2 Footer
+    4.3 Global
+    4.4 Header Menu
+    4.5 Section Heading
+    4.6 Pagination
+    4.7 Widget
+5. Template Page Style
+    5.1 About
+    5.2 Banner
+    5.3 Blog
+    5.4 Brand
+    5.5 Call To Action
+    5.6 Contact
+    5.7 Case Study
+    5.8 Error Page
+    5.9 Pricing Table
+    5.10 Service
+    5.11 Team
+    5.12 Testimonial
+    5.13 Why Choose Us
+6. Helper Classes
+    6.1 Background
+    6.2 Border
+    6.3 Misc
+    6.4 Padding
+    6.5 Position 
+    6.6 Text 
+
+/*=======================================================================
+1. Typography 
+=========================================================================*/
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,700,900);
 html {
   height: 100%;
@@ -1406,7 +1453,7 @@ h6 {
 /*------------------- 4.1 Content -------------------*/
 .inner-page-banner {
   display: block;
-  padding: 3rem 0 10.5rem;
+  padding: 11rem 0 16.5rem;
 }
 .inner-page-banner .breadcrumbs-area {
   position: relative;
@@ -2533,7 +2580,6 @@ nav.template-main-menu > ul > li ul.dropdown-menu-col-1 {
   transition: all 0.3s ease-out;
 }
 nav.template-main-menu > ul > li ul.dropdown-menu-col-1 li a {
-  text-transform: uppercase !important;
   font-size: 14px;
   font-weight: 500;
   text-transform: capitalize;
@@ -7630,7 +7676,8 @@ div#wrapper.open > .offcanvas-mask {
   -ms-transform: translateY(-40px);
   transform: translateY(-40px);
   margin-bottom: 30px;
- 
+  -webkit-clip-path: polygon(0 0, 100% 4%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 4%, 100% 100%, 0% 100%);
   z-index: 6;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -7704,7 +7751,8 @@ div#wrapper.open > .offcanvas-mask {
   height: 99%;
   width: 99%;
   background-color: #ffffff;
-
+  -webkit-clip-path: polygon(0 0, 100% 4%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 4%, 100% 100%, 0% 100%);
   position: absolute;
   top: 2px;
   left: 0;
@@ -9079,9 +9127,6 @@ div#wrapper.open > .offcanvas-mask {
   z-index: 2;
   position: relative;
 }
-.footer-box-layout1 .footer-logo img {
-  width: 200px;
-}
 .line-shape:after {
   content: url('img/figure/line-shape.png');
   position: absolute;
@@ -9091,7 +9136,6 @@ div#wrapper.open > .offcanvas-mask {
 }
 .bg-common {
   background-position: center;
- background-color: #001ea2;
   background-size: cover;
   background-repeat: no-repeat;
 }
