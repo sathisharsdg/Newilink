@@ -8681,6 +8681,7 @@ div#wrapper.open > .offcanvas-mask {
 @media only screen and (max-width: 1199px) {
   .why-chose-box-layout5 .single-item {
     width: 100%;
+    text-align: left;
   }
   .why-chose-box-layout5 .single-item .item-img {
     margin-bottom: 30px;
