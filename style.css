@@ -1,4 +1,6 @@
-
+.footer-logo img {
+  width: 170px;
+}
 
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,700,900);
 html {
@@ -761,14 +763,14 @@ h6 {
   .slider-area .slide-1 div.slider-big-text,
   .slider-area .slide-2 div.slider-big-text,
   .slider-area .slide-3 div.slider-big-text {
-    font-size: 26px;
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 479px) {
   .slider-area .slide-1 div.slider-big-text,
   .slider-area .slide-2 div.slider-big-text,
   .slider-area .slide-3 div.slider-big-text {
-    font-size: 22px;
+    font-size: 16px;
   }
 }
 .slider-area .slide-1 div.slider-big-text.text-light,
@@ -8607,7 +8609,7 @@ div#wrapper.open > .offcanvas-mask {
   padding: 0 0 11.5rem;
 }
 .why-chose-wrap-layout3 {
-  padding: 12rem 0;
+  padding: 3rem 0;
 }
 .why-chose-wrap-layout4 {
   padding: 12rem 0 5.5rem;
@@ -8674,7 +8676,7 @@ div#wrapper.open > .offcanvas-mask {
   }
 }
 .why-chose-box-layout5 .single-item {
-  width: 50%;
+  width: auto;
 }
 @media only screen and (max-width: 1199px) {
   .why-chose-box-layout5 .single-item {
