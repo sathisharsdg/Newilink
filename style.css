@@ -9134,3 +9134,6 @@ div#wrapper.open > .offcanvas-mask {
 .letter-specing-0 {
   letter-spacing: 0;
 }
+.logo-mobile img {
+  width: 120px;
+}
